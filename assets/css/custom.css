@@ -1,0 +1,26 @@
+/* Ryan's overrides */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+:root{
+  --ry-text:#0F172A;   /* deep slate */
+  --ry-bg:#F8FAFC;     /* very light gray */
+  --ry-accent:#1E3A8A; /* navy */
+  --ry-muted:#334155;  /* slate */
+  --ry-lines:#E2E8F0;
+}
+
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ry-text);background:var(--ry-bg);}
+a{color:var(--ry-accent);}
+a:hover{opacity:.9}
+
+.button,.actions .button{background:var(--ry-accent);color:#fff !important;border-color:var(--ry-accent)}
+.button.alt{background:transparent;color:var(--ry-accent) !important}
+
+#header .logo .title{font-weight:800;letter-spacing:-.01em}
+#header .logo strong{color:var(--ry-accent)}
+
+.tiles article > a h2{font-weight:800;letter-spacing:-.01em}
+.tiles article:hover{transform:translateY(-2px);transition:transform .15s ease}
+
+hr{border-color:var(--ry-lines)}
+#footer .icons a{border-color:var(--ry-lines)}
